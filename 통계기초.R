@@ -6,6 +6,8 @@ x1 <- c(2,4,6,8)
 linear_model <- lm(y ~ x)
 linear_model
 
+summary(linear_model)
+
 # 다중 선형 회귀
 
 x1 <- c(2,4,6,8)
